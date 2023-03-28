@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a> 
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="productos.html">Productos</a>
+    </nav>
+
+    <main>
+        <div class="contenedor">
+            <h1>React JS</h1>
+        </div>
+
+        <div class="camisas">
+            <img class="imagen__camisas" src="img/3.jpg" alt="imagen del producto">
+            <div class="camisas__contenido">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti distinctio dicta eaque, quo illo a amet vitae.</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option  disabled selected>>--Seleccionar talla--<</option>
+                        <option>Talla S</option>
+                        <option>Talla M</option>
+                        <option>Talla L</option>
+                        <option>Talla XL</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Añadir al carrito">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+<footer class="footer">
+    <p class="footer__texto">FrontEnd Store - TODOS LOS DERECHOS RESERVADOS</p>
+</footer>
+
+</html>
